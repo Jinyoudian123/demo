@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WINDOWS-G8U35PB",
+    "children" : [ {
+      "name" : "9632-MainThread",
+      "children" : [ {
+        "name" : "获取buy交易汇总",
+        "uid" : "f5023b48ba34b2c",
+        "parentUid" : "2df54c7028bb246ae9ab6a263529e133",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646736650398,
+          "stop" : 1646736650971,
+          "duration" : 573
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2df54c7028bb246ae9ab6a263529e133"
+    } ],
+    "uid" : "b322b2d6f5c5aeccc7d4c24d6642ae6a"
+  } ]
+}

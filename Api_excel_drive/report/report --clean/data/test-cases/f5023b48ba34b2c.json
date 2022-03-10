@@ -1,0 +1,421 @@
+{
+  "uid" : "f5023b48ba34b2c",
+  "name" : "获取buy交易汇总",
+  "fullName" : "test_cases.test_case#test_1",
+  "historyId" : "0633f331353a98430a0855bf8a454ba9",
+  "time" : {
+    "start" : 1646736650398,
+    "stop" : 1646736650971,
+    "duration" : 573
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "globals_variable",
+    "time" : {
+      "start" : 1646736650396,
+      "stop" : 1646736650396,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始所有变量的替换",
+      "time" : {
+        "start" : 1646736650398,
+        "stop" : 1646736650399,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "开始替换ulr中的变量",
+        "time" : {
+          "start" : 1646736650398,
+          "stop" : 1646736650399,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "替换所有变量",
+          "time" : {
+            "start" : 1646736650398,
+            "stop" : 1646736650399,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "str_value",
+            "value" : "'get_global${host}/trading/getTransactionSummary'"
+          }, {
+            "name" : "global_variable",
+            "value" : "{'key': 'value', 'host': 'https://test-pms.hillinsight.tech/hillinsight-mfront-api', 'headers': '{\\n    \"aad-idtoken\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCJ9.eyJhdWQiOiJiMjg0ZjlhYi02NDUzLTQyYjgtYjUyOC02OGE4MDU5YjVkOTEiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vZTUyMzQ1MGItMzJmNC00MWQ5LTlmN2UtMTQyNDA1NzllYmM5L3YyLjAiLCJpYXQiOjE2NDY3MTk3NzIsIm5iZiI6MTY0NjcxOTc3MiwiZXhwIjoxNjQ2NzIzNjcyLCJhaW8iOiJBVFFBeS84VEFBQUFWVDZqZWZmdzJBUlpaektMUG0xaWRWenF3eGJJcTkzMVFaZ2M3Q284R1RIbXhjSEQxMnNjTVJaeHNMUlNydGpWIiwibmFtZSI6IumdsyDmnInlhbgiLCJub25jZSI6ImFmZWZjMTU3LWI2MjQtNGVkMS05MThjLWJkNDY2NTIzNzlhYyIsIm9pZCI6IjcxZGU5MDE4LTE5NjktNGM0OC04ZTBhLWYwM2E2OWEwNmRkNyIsInByZWZlcnJlZF91c2VybmFtZSI6InlkamluQGhpbGxpbnNpZ2h0LmNvbSIsInJoIjoiMC5BVDRBQzBVajVmUXkyVUdmZmhRa0JYbnJ5YXY1aExKVFpMaEN0U2hvcUFXYlhaRS1BQjAuIiwic3ViIjoiWVdMd0ZzYTVxRjVmSFBiMks0cmIxVnZTc2xuZEZpVzRaVzNoNTcxeGYxbyIsInRpZCI6ImU1MjM0NTBiLTMyZjQtNDFkOS05ZjdlLTE0MjQwNTc5ZWJjOSIsInV0aSI6InFGWHJJYk9KTVVhM0t2N2xncjFVQUEiLCJ2ZXIiOiIyLjAifQ.FWGCOYkdX9EraobIzmQy6FIzGZPP7snc5MwFVHxeesbZdNRohLgQhiZKtLkxv715tBlq41dqKiIEssUvKDSDThJedhOVAwpK_kPJHFJk1nnosetgVBusCkqppte2cy2vdt4YXfdGvoyd5SErBiHiGQ1xTpLg-OJ-Er5sgyDjWip10FLqIJvBhYeexH8RR-0DSuxU9QLAePCZWfJkwViIffDEGPYBVqX1tX4HMXuwShbj1_KyQSpL7Fw_4vWAN2LYI0fPRIN1Y6XZywhrF4yYEZsGH9_Ny4dF4t0j4pQHjnTq4DkXPYO1XLnVrQeUhQshbUdy2s1b-FdJATI5X4sfQw\",\\n    \"acs-systemid\":\"20211217164952531733\",\\n    \"content-type\":\"application/json;charset=UTF-8\"\\n}'}"
+          }, {
+            "name" : "environment_variable",
+            "value" : "{}"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "开始替换headers中的变量",
+        "time" : {
+          "start" : 1646736650399,
+          "stop" : 1646736650399,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "替换所有变量",
+          "time" : {
+            "start" : 1646736650399,
+            "stop" : 1646736650399,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "str_value",
+            "value" : "'get_global${headers}'"
+          }, {
+            "name" : "global_variable",
+            "value" : "{'key': 'value', 'host': 'https://test-pms.hillinsight.tech/hillinsight-mfront-api', 'headers': '{\\n    \"aad-idtoken\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCJ9.eyJhdWQiOiJiMjg0ZjlhYi02NDUzLTQyYjgtYjUyOC02OGE4MDU5YjVkOTEiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vZTUyMzQ1MGItMzJmNC00MWQ5LTlmN2UtMTQyNDA1NzllYmM5L3YyLjAiLCJpYXQiOjE2NDY3MTk3NzIsIm5iZiI6MTY0NjcxOTc3MiwiZXhwIjoxNjQ2NzIzNjcyLCJhaW8iOiJBVFFBeS84VEFBQUFWVDZqZWZmdzJBUlpaektMUG0xaWRWenF3eGJJcTkzMVFaZ2M3Q284R1RIbXhjSEQxMnNjTVJaeHNMUlNydGpWIiwibmFtZSI6IumdsyDmnInlhbgiLCJub25jZSI6ImFmZWZjMTU3LWI2MjQtNGVkMS05MThjLWJkNDY2NTIzNzlhYyIsIm9pZCI6IjcxZGU5MDE4LTE5NjktNGM0OC04ZTBhLWYwM2E2OWEwNmRkNyIsInByZWZlcnJlZF91c2VybmFtZSI6InlkamluQGhpbGxpbnNpZ2h0LmNvbSIsInJoIjoiMC5BVDRBQzBVajVmUXkyVUdmZmhRa0JYbnJ5YXY1aExKVFpMaEN0U2hvcUFXYlhaRS1BQjAuIiwic3ViIjoiWVdMd0ZzYTVxRjVmSFBiMks0cmIxVnZTc2xuZEZpVzRaVzNoNTcxeGYxbyIsInRpZCI6ImU1MjM0NTBiLTMyZjQtNDFkOS05ZjdlLTE0MjQwNTc5ZWJjOSIsInV0aSI6InFGWHJJYk9KTVVhM0t2N2xncjFVQUEiLCJ2ZXIiOiIyLjAifQ.FWGCOYkdX9EraobIzmQy6FIzGZPP7snc5MwFVHxeesbZdNRohLgQhiZKtLkxv715tBlq41dqKiIEssUvKDSDThJedhOVAwpK_kPJHFJk1nnosetgVBusCkqppte2cy2vdt4YXfdGvoyd5SErBiHiGQ1xTpLg-OJ-Er5sgyDjWip10FLqIJvBhYeexH8RR-0DSuxU9QLAePCZWfJkwViIffDEGPYBVqX1tX4HMXuwShbj1_KyQSpL7Fw_4vWAN2LYI0fPRIN1Y6XZywhrF4yYEZsGH9_Ny4dF4t0j4pQHjnTq4DkXPYO1XLnVrQeUhQshbUdy2s1b-FdJATI5X4sfQw\",\\n    \"acs-systemid\":\"20211217164952531733\",\\n    \"content-type\":\"application/json;charset=UTF-8\"\\n}'}"
+          }, {
+            "name" : "environment_variable",
+            "value" : "{}"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "开始替换请求参数中的变量",
+        "time" : {
+          "start" : 1646736650399,
+          "stop" : 1646736650399,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "替换所有变量",
+          "time" : {
+            "start" : 1646736650399,
+            "stop" : 1646736650399,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "str_value",
+            "value" : "'{\"criteria\":{\"id\":\"4cb0116a8bb1e4180510d81185999173\",\"setDate\":\"2022-03-07\",\"currency\":\"1\"}}'"
+          }, {
+            "name" : "global_variable",
+            "value" : "{'key': 'value', 'host': 'https://test-pms.hillinsight.tech/hillinsight-mfront-api', 'headers': '{\\n    \"aad-idtoken\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCJ9.eyJhdWQiOiJiMjg0ZjlhYi02NDUzLTQyYjgtYjUyOC02OGE4MDU5YjVkOTEiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vZTUyMzQ1MGItMzJmNC00MWQ5LTlmN2UtMTQyNDA1NzllYmM5L3YyLjAiLCJpYXQiOjE2NDY3MTk3NzIsIm5iZiI6MTY0NjcxOTc3MiwiZXhwIjoxNjQ2NzIzNjcyLCJhaW8iOiJBVFFBeS84VEFBQUFWVDZqZWZmdzJBUlpaektMUG0xaWRWenF3eGJJcTkzMVFaZ2M3Q284R1RIbXhjSEQxMnNjTVJaeHNMUlNydGpWIiwibmFtZSI6IumdsyDmnInlhbgiLCJub25jZSI6ImFmZWZjMTU3LWI2MjQtNGVkMS05MThjLWJkNDY2NTIzNzlhYyIsIm9pZCI6IjcxZGU5MDE4LTE5NjktNGM0OC04ZTBhLWYwM2E2OWEwNmRkNyIsInByZWZlcnJlZF91c2VybmFtZSI6InlkamluQGhpbGxpbnNpZ2h0LmNvbSIsInJoIjoiMC5BVDRBQzBVajVmUXkyVUdmZmhRa0JYbnJ5YXY1aExKVFpMaEN0U2hvcUFXYlhaRS1BQjAuIiwic3ViIjoiWVdMd0ZzYTVxRjVmSFBiMks0cmIxVnZTc2xuZEZpVzRaVzNoNTcxeGYxbyIsInRpZCI6ImU1MjM0NTBiLTMyZjQtNDFkOS05ZjdlLTE0MjQwNTc5ZWJjOSIsInV0aSI6InFGWHJJYk9KTVVhM0t2N2xncjFVQUEiLCJ2ZXIiOiIyLjAifQ.FWGCOYkdX9EraobIzmQy6FIzGZPP7snc5MwFVHxeesbZdNRohLgQhiZKtLkxv715tBlq41dqKiIEssUvKDSDThJedhOVAwpK_kPJHFJk1nnosetgVBusCkqppte2cy2vdt4YXfdGvoyd5SErBiHiGQ1xTpLg-OJ-Er5sgyDjWip10FLqIJvBhYeexH8RR-0DSuxU9QLAePCZWfJkwViIffDEGPYBVqX1tX4HMXuwShbj1_KyQSpL7Fw_4vWAN2LYI0fPRIN1Y6XZywhrF4yYEZsGH9_Ny4dF4t0j4pQHjnTq4DkXPYO1XLnVrQeUhQshbUdy2s1b-FdJATI5X4sfQw\",\\n    \"acs-systemid\":\"20211217164952531733\",\\n    \"content-type\":\"application/json;charset=UTF-8\"\\n}'}"
+          }, {
+            "name" : "environment_variable",
+            "value" : "{}"
+          } ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 6
+    }, {
+      "name" : "发送接口请求",
+      "time" : {
+        "start" : 1646736650399,
+        "stop" : 1646736650962,
+        "duration" : 563
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "发送post请求",
+        "time" : {
+          "start" : 1646736650400,
+          "stop" : 1646736650962,
+          "duration" : 562
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "'https://test-pms.hillinsight.tech/hillinsight-mfront-api/trading/getTransactionSummary'"
+        }, {
+          "name" : "data",
+          "value" : "None"
+        }, {
+          "name" : "json",
+          "value" : "{'criteria': {'id': '4cb0116a8bb1e4180510d81185999173', 'setDate': '2022-03-07', 'currency': '1'}}"
+        }, {
+          "name" : "headers",
+          "value" : "{'aad-idtoken': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCJ9.eyJhdWQiOiJiMjg0ZjlhYi02NDUzLTQyYjgtYjUyOC02OGE4MDU5YjVkOTEiLCJpc3MiOiJodHRwczovL2xvZ2luLm1pY3Jvc29mdG9ubGluZS5jb20vZTUyMzQ1MGItMzJmNC00MWQ5LTlmN2UtMTQyNDA1NzllYmM5L3YyLjAiLCJpYXQiOjE2NDY3MTk3NzIsIm5iZiI6MTY0NjcxOTc3MiwiZXhwIjoxNjQ2NzIzNjcyLCJhaW8iOiJBVFFBeS84VEFBQUFWVDZqZWZmdzJBUlpaektMUG0xaWRWenF3eGJJcTkzMVFaZ2M3Q284R1RIbXhjSEQxMnNjTVJaeHNMUlNydGpWIiwibmFtZSI6IumdsyDmnInlhbgiLCJub25jZSI6ImFmZWZjMTU3LWI2MjQtNGVkMS05MThjLWJkNDY2NTIzNzlhYyIsIm9pZCI6IjcxZGU5MDE4LTE5NjktNGM0OC04ZTBhLWYwM2E2OWEwNmRkNyIsInByZWZlcnJlZF91c2VybmFtZSI6InlkamluQGhpbGxpbnNpZ2h0LmNvbSIsInJoIjoiMC5BVDRBQzBVajVmUXkyVUdmZmhRa0JYbnJ5YXY1aExKVFpMaEN0U2hvcUFXYlhaRS1BQjAuIiwic3ViIjoiWVdMd0ZzYTVxRjVmSFBiMks0cmIxVnZTc2xuZEZpVzRaVzNoNTcxeGYxbyIsInRpZCI6ImU1MjM0NTBiLTMyZjQtNDFkOS05ZjdlLTE0MjQwNTc5ZWJjOSIsInV0aSI6InFGWHJJYk9KTVVhM0t2N2xncjFVQUEiLCJ2ZXIiOiIyLjAifQ.FWGCOYkdX9EraobIzmQy6FIzGZPP7snc5MwFVHxeesbZdNRohLgQhiZKtLkxv715tBlq41dqKiIEssUvKDSDThJedhOVAwpK_kPJHFJk1nnosetgVBusCkqppte2cy2vdt4YXfdGvoyd5SErBiHiGQ1xTpLg-OJ-Er5sgyDjWip10FLqIJvBhYeexH8RR-0DSuxU9QLAePCZWfJkwViIffDEGPYBVqX1tX4HMXuwShbj1_KyQSpL7Fw_4vWAN2LYI0fPRIN1Y6XZywhrF4yYEZsGH9_Ny4dF4t0j4pQHjnTq4DkXPYO1XLnVrQeUhQshbUdy2s1b-FdJATI5X4sfQw', 'acs-systemid': '20211217164952531733', 'content-type': 'application/json;charset=UTF-8'}"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "执行接口响应断言",
+      "time" : {
+        "start" : 1646736650962,
+        "stop" : 1646736650970,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "通过jsonpath进行断言",
+        "time" : {
+          "start" : 1646736650963,
+          "stop" : 1646736650969,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "response",
+          "value" : "{'result': {'id': None, 'accEquityCost': 11111.0, 'remainingInvCost': 11111.0, 'capitalizedExpense': 0, 'spvLevelExpense': 0, 'remainingShares': 111.0, 'currentHH': 0.111, 'sharePrice': 100.09909909909909, 'realizedProceeds': 0, 'equityFv': 11111.0, 'equityMoc': 1.0}, 'message': None, 'systemError': None, 'businessError': None, 'statusCode': 200, 'extensions': {}, 'success': True}"
+        }, {
+          "name" : "expect",
+          "value" : "0.111"
+        }, {
+          "name" : "case_id",
+          "value" : "1"
+        }, {
+          "name" : "rule",
+          "value" : "'$..currentHH'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "88f5142dfd3500c8",
+      "name" : "stdout",
+      "source" : "88f5142dfd3500c8.txt",
+      "type" : "text/plain",
+      "size" : 407
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 11
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "getTransactionSummary"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_case"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-G8U35PB"
+  }, {
+    "name" : "thread",
+    "value" : "9632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "37f2c0b644f26756",
+        "reportUrl" : "http://localhost:8081/job/job1/16/allure/#testresult/37f2c0b644f26756",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646736351350,
+          "stop" : 1646736351638,
+          "duration" : 288
+        }
+      }, {
+        "uid" : "e430c53a3997eaec",
+        "reportUrl" : "http://localhost:8081/job/job1/15/allure/#testresult/e430c53a3997eaec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646735328534,
+          "stop" : 1646735328825,
+          "duration" : 291
+        }
+      }, {
+        "uid" : "5e83dd08ebea684d",
+        "reportUrl" : "http://localhost:8081/job/job1/14/allure/#testresult/5e83dd08ebea684d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646735184377,
+          "stop" : 1646735184655,
+          "duration" : 278
+        }
+      }, {
+        "uid" : "ef3f73521d3102d",
+        "reportUrl" : "http://localhost:8081/job/job1/13/allure/#testresult/ef3f73521d3102d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646735075353,
+          "stop" : 1646735075843,
+          "duration" : 490
+        }
+      }, {
+        "uid" : "3db133b924120c6e",
+        "reportUrl" : "http://localhost:8081/job/job1/12/allure/#testresult/3db133b924120c6e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646734305881,
+          "stop" : 1646734306304,
+          "duration" : 423
+        }
+      }, {
+        "uid" : "df6020c63e7bc03b",
+        "reportUrl" : "http://localhost:8081/job/job1/11/allure/#testresult/df6020c63e7bc03b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 接口1响应断言失败",
+        "time" : {
+          "start" : 1646734012510,
+          "stop" : 1646734012614,
+          "duration" : 104
+        }
+      }, {
+        "uid" : "78ef34469a667ada",
+        "reportUrl" : "http://localhost:8081/job/job1/10/allure/#testresult/78ef34469a667ada",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646733931326,
+          "stop" : 1646733931717,
+          "duration" : 391
+        }
+      }, {
+        "uid" : "6c61ac06db841d69",
+        "reportUrl" : "http://localhost:8081/job/job1/9/allure/#testresult/6c61ac06db841d69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646733761133,
+          "stop" : 1646733761553,
+          "duration" : 420
+        }
+      }, {
+        "uid" : "7d6b4c9915e2fc02",
+        "reportUrl" : "http://localhost:8081/job/job1/6/allure/#testresult/7d6b4c9915e2fc02",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 接口1响应断言失败",
+        "time" : {
+          "start" : 1646730968492,
+          "stop" : 1646730968614,
+          "duration" : 122
+        }
+      }, {
+        "uid" : "eff4caef1976c00b",
+        "reportUrl" : "http://localhost:8081/job/job1/5/allure/#testresult/eff4caef1976c00b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 接口1响应断言失败",
+        "time" : {
+          "start" : 1646730870481,
+          "stop" : 1646730870728,
+          "duration" : 247
+        }
+      }, {
+        "uid" : "650ab2cdf1c8415e",
+        "reportUrl" : "http://localhost:8081/job/job1/4/allure/#testresult/650ab2cdf1c8415e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 接口1响应断言失败",
+        "time" : {
+          "start" : 1646730664009,
+          "stop" : 1646730664132,
+          "duration" : 123
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f5023b48ba34b2c.json",
+  "parameterValues" : [ ]
+}

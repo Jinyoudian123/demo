@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "getTransactionSummary",
+    "children" : [ {
+      "name" : "获取buy交易汇总",
+      "uid" : "8278e83882457178",
+      "parentUid" : "7dce04913de86573cfc35320857498f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646731085990,
+        "stop" : 1646731086561,
+        "duration" : 571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : true,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7dce04913de86573cfc35320857498f7"
+  } ]
+}

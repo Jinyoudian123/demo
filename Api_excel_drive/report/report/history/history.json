@@ -1,0 +1,52 @@
+{
+  "0633f331353a98430a0855bf8a454ba9" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "8278e83882457178",
+      "reportUrl" : "http://localhost:8081/job/job1/7/allure/#testresult/8278e83882457178",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646731085990,
+        "stop" : 1646731086561,
+        "duration" : 571
+      }
+    }, {
+      "uid" : "7d6b4c9915e2fc02",
+      "reportUrl" : "http://localhost:8081/job/job1/6/allure/#testresult/7d6b4c9915e2fc02",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 接口1响应断言失败",
+      "time" : {
+        "start" : 1646730968492,
+        "stop" : 1646730968614,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "eff4caef1976c00b",
+      "reportUrl" : "http://localhost:8081/job/job1/5/allure/#testresult/eff4caef1976c00b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 接口1响应断言失败",
+      "time" : {
+        "start" : 1646730870481,
+        "stop" : 1646730870728,
+        "duration" : 247
+      }
+    }, {
+      "uid" : "650ab2cdf1c8415e",
+      "reportUrl" : "http://localhost:8081/job/job1/4/allure/#testresult/650ab2cdf1c8415e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 接口1响应断言失败",
+      "time" : {
+        "start" : 1646730664009,
+        "stop" : 1646730664132,
+        "duration" : 123
+      }
+    } ]
+  }
+}

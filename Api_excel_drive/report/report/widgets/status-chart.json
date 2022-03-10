@@ -1,0 +1,11 @@
+[ {
+  "uid" : "8278e83882457178",
+  "name" : "获取buy交易汇总",
+  "time" : {
+    "start" : 1646731085990,
+    "stop" : 1646731086561,
+    "duration" : 571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
