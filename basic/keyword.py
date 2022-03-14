@@ -22,7 +22,7 @@ class WebKey:
 
     # 定位到指定元素，并使用红色的框圈住定位到的元素
     def location_list(self, element_list):
-        self.scroll_to(element_list[0], element_list[1])
+        # self.scroll_to(element_list[0], element_list[1])
         self._locator_station(self.location(element_list[0], element_list[1]))
         return self.location(element_list[0], element_list[1])
 
@@ -93,10 +93,11 @@ class WebKey:
 
     # 通过获取文本内容进行断言
     def assert_text(self, element_list, text):
-        if self.location_list(element_list).text == text:
+        result = self.location_list(element_list).text
+        if result == text:
             return True
         else:
-            return False
+            raise Exception(f'预期结果与实际结果不符，断言失败，预期结果为：{text}，实际结果为：{result}')
 
     # 通过判断元素是否存在进行断言
     def assert_exist(self, element_list):
@@ -104,3 +105,8 @@ class WebKey:
             return True
         else:
             return False
+
+    def getAttribute(self, element_list, attribute):
+        # js = f'arguments[0].getAttribute({attribute})'
+        js = f'arguments[0].getAttribute("{attribute}")'
+        return self.driver.execute_script(js, self.location_list(element_list))
